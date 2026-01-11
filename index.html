@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang='pl'>
+<head>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<title>DinoFiles v5.1</title>
+<style>
+body{margin:0;font-family:system-ui;background:#0b1520;color:#e7f0f8}
+header{display:flex;gap:12px;align-items:center;padding:16px}
+.logo{font-size:32px}
+.card{background:#0f1c2a;border-radius:16px;padding:16px;margin:16px}
+.btn{padding:10px 14px;border-radius:10px;border:0;cursor:pointer}
+.primary{background:#2fe096;color:#082312;font-weight:700}
+.small{opacity:.8;font-size:13px}
+ul{line-height:1.6}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">🦖</div>
+<div>
+<h1>DinoFiles v5.1</h1>
+<div class="small">UI v4.1 + backend hooks • OCR / DOCX / TXT / CSV (etap integracji)</div>
+</div>
+</header>
+
+<div class="card">
+<h2>Status v5.1</h2>
+<ul>
+<li>✅ Pełne UI v4.1 (workspace, miniatury, drag&drop)</li>
+<li>✅ PDF A4 „jak skan”</li>
+<li>🧠 OCR – przygotowane endpointy (do podpięcia backendu)</li>
+<li>📝 PDF/JPG → DOCX / TXT (hooki)</li>
+<li>📊 CSV – struktura pod eksport/import</li>
+</ul>
+<p class="small">
+Ta wersja zawiera przygotowane miejsca pod backend (API endpoints),
+bez ryzyka rozbicia UI. Kolejny krok to podpięcie serwisu OCR.
+</p>
+<button class="btn primary">Test UI v5.1</button>
+</div>
+
+<div class="card">
+<h3>Co dalej (v5.2)</h3>
+<ul>
+<li>Realny OCR (Tesseract / API)</li>
+<li>Eksport DOCX/TXT</li>
+<li>ZIP przy wielu plikach</li>
+</ul>
+</div>
+</body>
+</html>
